@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEO ARCADIA — Ascendant Nexus Academy</title>
+  <meta name="description" content="NeoArcadia-9: a violent, chrome-addicted megacity ruled by NOISE. Meet the Breakers of Ascendant Nexus Academy.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- ===== SIDEBAR: cards linking to each category ===== -->
+    <aside class="sidebar">
+
+      <a href="#home" class="brand">
+        <span class="brand__name">NEO<b>//</b>ARCADIA</span>
+        <span class="brand__tag">ASCENDANT NEXUS ACADEMY</span>
+      </a>
+
+      <nav class="menu" aria-label="Categories">
+
+        <a href="#home" class="menu__card">
+          <span class="menu__idx">00</span>
+          <span class="menu__text">
+            <strong>Home</strong>
+            <em>Overview</em>
+          </span>
+          <span class="menu__arrow">→</span>
+        </a>
+
+        <a href="#characters" class="menu__card">
+          <span class="menu__idx">01</span>
+          <span class="menu__text">
+            <strong>Characters</strong>
+            <em>Breakers, staff and NOISE</em>
+          </span>
+          <span class="menu__arrow">→</span>
+        </a>
+
+        <a href="#regions" class="menu__card">
+          <span class="menu__idx">02</span>
+          <span class="menu__text">
+            <strong>Regions</strong>
+            <em>City and campus</em>
+          </span>
+          <span class="menu__arrow">→</span>
+        </a>
+
+        <a href="#world" class="menu__card">
+          <span class="menu__idx">03</span>
+          <span class="menu__text">
+            <strong>The World</strong>
+            <em>Lore and factions</em>
+          </span>
+          <span class="menu__arrow">→</span>
+        </a>
+
+      </nav>
+
+      <p class="sidebar__foot"><i></i> system online // v0.1</p>
+    </aside>
+
+    <!-- ===== CONTENT ===== -->
+    <main class="content">
+
+      <!-- HOME -->
+      <section class="panel" id="home">
+        <div class="hero">
+          <p class="eyebrow">// welcome to neoarcadia-9</p>
+          <h1 class="hero__title">NEO <span>ARCADIA</span></h1>
+          <p class="hero__text">
+            A violent, chrome-addicted megacity ruled by NOISE. One academy
+            trains the Breakers who will fight back.
+          </p>
+
+          <!-- Replace with your banner: <img src="img/banner.jpg" alt="Banner"> -->
+          <div class="hero__banner">
+            <span class="placeholder">BANNER / MAIN IMAGE</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHARACTERS -->
+      <section class="panel" id="characters">
+        <header class="head">
+          <p class="eyebrow">01 // characters</p>
+          <h2 class="head__title">Characters</h2>
+          <p class="head__sub">The Breakers, the staff and the enemies of NeoArcadia-9.</p>
+        </header>
+
+        <!--
+          IMAGES: save each portrait in a folder named "img" next to this file,
+          using the file names below (aria.png, cassia.png, rhea.png, vex.png, helena.png, mika.png).
+          To add an image to another card, replace its <span class="placeholder"> with
+          <img src="img/name.png" alt="Name">
+        -->
+        <div class="grid">
+
+          <!-- ===== STUDENTS ===== -->
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/864b0864d75f0659a3dc7990-whatsapp-image-2026-11-13-at-03-23-17.avif" alt="Aria Bloom">
+            </div>
+            <div class="card__body">
+              <span class="card__label">B-Rank · Breaker</span>
+              <h3 class="card__name">Aria Bloom</h3>
+              <p class="card__desc">Bubbly implant fanatic who insists she is the Arcadia Queen, a vampire. Wields Vampyre, a giant fanged axe, and idolizes Kessler.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/d073f85345f006e46c3fa8b6-whatsapp-image-2026-11-13-at-03-23-09.avif" alt="Cassia Vael">
+            </div>
+            <div class="card__body">
+              <span class="card__label">A-Rank · Nexuscore heiress</span>
+              <h3 class="card__name">Cassia Vael</h3>
+              <p class="card__desc">Poised, elitist and hungry for earned respect. Her rapier Regent hacks and disables tech. Sibling of instructor Gideon Rourke.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/7675ca552426128b2de4b1af-whatsapp-image-2026-11-13-at-03-22-51.avif" alt="Rhea Terui">
+            </div>
+            <div class="card__body">
+              <span class="card__label">A-Rank · Street fighter</span>
+              <h3 class="card__name">Rhea Terui</h3>
+              <p class="card__desc">Laid-back, blue-skinned duelist who lives for rematches. Her One-Horned gloves launch cable-hands and shockwaves. Teases Noah, all in good fun.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/1d90dfb91d9f572e9cb95177-whatsapp-image-2026-11-13-at-03-22-42.avif" alt="Vex Moreau">
+            </div>
+            <div class="card__body">
+              <span class="card__label">B-Rank · Heavy gunner</span>
+              <h3 class="card__name">Vex Moreau</h3>
+              <p class="card__desc">Loud, bossy and cheerful, with a cyber-shark tail. Her shoulder cannon Battleship fires three explosive shots. Close with Mika.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/ba98f4415aadcbb1ae9f2163-image.avif">
+               </div>
+            <div class="card__body">
+              <span class="card__label">C-Rank · Breaker</span>
+              <h3 class="card__name">Theo Wren</h3>
+              <p class="card__desc">Kind, stubborn and determined, with minimal chrome. His telekinetic shield Bastion pulls and pushes, and he watches over Noah.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/8e39af3f7fde62e6509ddc46-image.avif">
+               </div>
+            <div class="card__body">
+              <span class="card__label">D-Rank · Outcast</span>
+              <h3 class="card__name">Noah Ferris</h3>
+              <p class="card__desc">Reclusive, unchromed and the weakest student. Her replicating drones, Hollow, protect her with electric blasts.</p>
+            </div>
+          </article>
+
+          <!-- ===== STAFF & LEGENDS ===== -->
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/756b70f0333199779208a9d3-image.avif" alt="Helena Marsh">
+            </div>
+            <div class="card__body">
+              <span class="card__label">A-Rank · Instructor</span>
+              <h3 class="card__name">Helena Marsh</h3>
+              <p class="card__desc">Ex-Nexuscore soldier, exhausted and cynical, secretly caring. Warns every student against too much chrome, and is friends with almost all of them.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/76d2ed3081e88f845d0ab61b-image.avif" alt="Gideon Rourke">
+            </div>
+            <div class="card__body">
+              <span class="card__label">A-Rank · Nexuscore instructor</span>
+              <h3 class="card__name">Gideon Rourke</h3>
+              <p class="card__desc">Harsh, scarred field soldier in heavy combat chrome. Teaches several subjects and drills students like recruits.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/e01e98122d50675b5a1b6bee-image.avif" alt="Mika Sorrel">
+            </div>
+            <div class="card__body">
+              <span class="card__label">C-Rank · Academy mechanic</span>
+              <h3 class="card__name">Mika Sorrel</h3>
+              <p class="card__desc">Warm, deadpan and meticulous. Installs your implants, gore jokes included, and never harms a patient. Close friend of Vex.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/8cca998b8eaf062cd99748e4-image.avif" alt="Viktor Hale">
+            </div>
+            <div class="card__body">
+              <span class="card__label">S-Rank · Retired mercenary</span>
+              <h3 class="card__name">Viktor Hale</h3>
+              <p class="card__desc">"Black Zarathustra", a NeoArcadia legend. Stoic and laconic, with a heavy revolver and no use for borrowed chrome. Kessler made him retire.</p>
+            </div>
+          </article>
+
+          <!-- ===== NOISE ===== -->
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/cbb9a29c3c120f58fa74cc85-image.avif" alt="Kessler">
+            </div>
+            <div class="card__body">
+              <span class="card__label">AS-Rank · NOISE executor</span>
+              <h3 class="card__name">Kessler</h3>
+              <p class="card__desc">Eerily calm, rule-obsessed sadist who apologizes before violence. Wields Sun, flesh-piercing spiked chains wreathed in artificial flame.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img">
+              <img src="https://user55651.na.imgto.link/public/20261113/d148e1ac275f298cf6106840-image.avif" alt="Kira">
+            </div>
+            <div class="card__body">
+              <span class="card__label">A-Rank · NOISE enforcer</span>
+              <h3 class="card__name">Kira</h3>
+              <p class="card__desc">A broken cortex swaps her between a giggly, violent red self and a silent, precise blue one. Fights to the beat of her implant music.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img"><span class="placeholder">IMAGE</span></div>
+            <div class="card__body">
+              <span class="card__label">S-Rank · NOISE leader</span>
+              <h3 class="card__name">Auden Null</h3>
+              <p class="card__desc">Silent, unreadable and obsessed with antimatter. Never explains himself.</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- REGIONS -->
+      <section class="panel" id="regions">
+        <header class="head">
+          <p class="eyebrow">02 // regions</p>
+          <h2 class="head__title">Regions</h2>
+          <p class="head__sub">The places that shape the world.</p>
+        </header>
+
+        <div class="grid grid--wide">
+
+          <article class="card">
+            <div class="card__img card__img--wide">
+              <!-- Replace with your image: <img src="img/neoarcadia-9.jpg" alt="NeoArcadia-9"> -->
+              <span class="placeholder">REGION IMAGE</span>
+            </div>
+            <div class="card__body">
+              <span class="card__label">Megacity</span>
+              <h3 class="card__name">NeoArcadia-9</h3>
+              <p class="card__desc">Rampant violence, madness and addiction. Street chrome is everywhere, and NOISE rules the underworld.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img card__img--wide">
+              <span class="placeholder">REGION IMAGE</span>
+            </div>
+            <div class="card__body">
+              <span class="card__label">Nexuscore campus</span>
+              <h3 class="card__name">Ascendant Nexus Academy</h3>
+              <p class="card__desc">Classes, rivalries, tournaments and missions for the city's Breakers. Tuition is exorbitant, and most students are rich.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img card__img--wide">
+              <span class="placeholder">REGION IMAGE</span>
+            </div>
+            <div class="card__body">
+              <span class="card__label">Danger zone</span>
+              <h3 class="card__name">The Streets</h3>
+              <p class="card__desc">Where Breakers run real missions for Nexuscore, and where NOISE strikes back.</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- THE WORLD -->
+      <section class="panel" id="world">
+        <header class="head">
+          <p class="eyebrow">03 // the world</p>
+          <h2 class="head__title">The World</h2>
+          <p class="head__sub">The essentials, nothing more.</p>
+        </header>
+
+        <div class="info">
+          <div class="info__item">
+            <h4>Nexuscore</h4>
+            <p>A tech megacorp that fights NOISE because overchroming fuels psychosis, crime and addiction. It runs Ascendant Academy.</p>
+          </div>
+          <div class="info__item">
+            <h4>NOISE</h4>
+            <p>Implant supremacists led by Auden Null. They despise the unchromed and force chrome on civilians. "Flesh is messy noise; technology is the new signal."</p>
+          </div>
+          <div class="info__item">
+            <h4>Breakers</h4>
+            <p>Ascendant's students, trained to fight back with chrome and tech. They also work as Nexuscore rookies on real missions.</p>
+          </div>
+          <div class="info__item">
+            <h4>Cyber-Gear</h4>
+            <p>Every student carries a cube that becomes a unique, extremely powerful signature weapon.</p>
+          </div>
+          <div class="info__item">
+            <h4>Implants &amp; Humanity</h4>
+            <p>Academy winners earn Cybernetic Tokens, redeemable for implants. Every implant costs a little humanity, and street chrome costs more.</p>
+          </div>
+          <div class="info__item">
+            <h4>Power Ranks</h4>
+            <p>AS &gt; S &gt; A &gt; B &gt; C &gt; D. A one-rank gap can be bridged by strategy. Two or more is nearly insurmountable.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        NEO//ARCADIA — OOC project. All rights reserved to the author.
+      </footer>
+
+    </main>
+  </div>
+
+</body>
+</html>
