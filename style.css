@@ -377,7 +377,8 @@ body:not(:has(.panel:target)) #home { display: block; }
   font-family: var(--font-mono);
   font-size: 0.75rem;
   letter-spacing: 2px;
-  color: 
+  color: var(--accent);
+  text-shadow: 1px 0 rgba(25, 227, 255, 0.45), -1px 0 rgba(255, 42, 77, 0.45);
 }
 /* a imagem preenche toda a moldura; o scale corta as pontas irregulares da arte */
 .hero__banner img {
